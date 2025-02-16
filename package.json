@@ -1,0 +1,26 @@
+{
+  "name": "01_the-shoe-company",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tailwind": "tailwindcss -i ./input.css -o ./output.css --watch",
+    "tailwind-minify": "tailwindcss -i ./input.css -o ./output.css --watch --minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sparvinder2/TheShoeCompany.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/sparvinder2/TheShoeCompany/issues"
+  },
+  "homepage": "https://github.com/sparvinder2/TheShoeCompany#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}

@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Shoe Company</title>
     <link rel="stylesheet" href="output.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <script src="script.js" defer></script>
 </head>
 
 <body class="bg-black text-white">
     <header
-        class="section-container flex items-center justify-between fixed w-full left-[50%] -translate-x-[50%] bg-black/70 backdrop-blur-sm z-10">
+        class="section-container flex items-center justify-between fixed w-full left-[50%] -translate-x-[50%] bg-black/70 backdrop-blur-sm z-10  open-menu">
         <a href="#">
             <img class=" w-24 md:w-32 " src="./images/logo.png" alt="logo">
             <p class="text-xs -mt-6 md:text-sm  md:-mt-8">The Shoe Company</p>
@@ -22,7 +24,7 @@
             <a class="font-bold" href="#testimonials">Testimonials</a>
             <a class="font-bold" href="#contact">Contact us</a>
         </nav>
-        <button class="text-5xl md:hidden">☰</button>
+        <button id="hamburger-menu" class="text-5xl md:hidden active:text-red-800">☰</button>
     </header>
     <section id="hero"
         class="bg-[url('./images/hero-background.png')] bg-cover md:bg-contain bg-no-repeat bg-right pt-36 section-container">
